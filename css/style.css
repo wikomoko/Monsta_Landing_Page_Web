@@ -1,0 +1,164 @@
+
+@font-face{
+    font-family: 'arial';
+    src: url(../fonts/arial.ttf);
+}
+@font-face{
+    font-family: 'ARLRDBD';
+    src: url(../fonts/ARLRDBD.ttf);
+}
+html{
+    scroll-behavior: smooth!important;
+}
+
+.toup{
+    position: absolute;
+    right:0;
+    bottom:0;
+    width: 100px;
+}
+.pad1{
+    padding-bottom: 100px;
+    padding-top: 40px;
+}
+.box{
+    padding: 50px;
+    box-shadow: 0px 0px 1px  black;
+    margin-top: 50px;
+    border-radius: 8px;
+}
+.relation{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 25px;
+}
+.whoismonsta{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.whoismonsta hr,.kakspotpad hr,.rocketzpad hr,.boxybotpad hr,.rute hr{
+    border-color: white;
+    border-width: 50%px;
+    width: 50%;
+    margin-bottom: 50px;
+}
+.friends{
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+.rocketzpad{
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+.about{
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+.friends hr,.about hr,.contac hr{
+    border-color: #76CAEE;
+    border-width: 50%px;
+    width: 50%;
+    margin-bottom: 50px;
+}
+.ini{
+    margin-left: 10px;
+
+}
+.kakspot{
+    margin-top: 10px;
+    color: #87DE87;
+}
+.boxybot{
+    margin-top: 75px;
+    color: #EC86D2;
+}
+.roketz{
+    margin-top: 50px;
+    color: #FF7D40;
+}
+.kakspotpad{
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+.boxybotpad{
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+.rute{
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+.about{
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+.footbar{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.up{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    transition: 0.5s;
+}
+.up:hover{
+    transform: scale(1.2);
+}
+
+.nav-link{
+    transition: 0.5s;
+}
+.nav-link:hover{
+    transform: scale(1.2);
+}
+.textmiddle{
+    text-align: center;
+}
+.textaverage{
+    text-align: justify;
+}
+.arial{
+    font-family: 'arial';
+}
+.arialround{
+    font-family: 'ARLRDBD';
+}
+.navtitle{
+    font-family:'Dudeludel' ;
+}
+.blue{
+    background-color: #76CAEE!important;
+}
+.white{
+    background-color: rgb(255,255,255)!important;
+}
+.greens{
+    background-color: #87DE87;
+}
+.oranges{
+    background-color: #FFA67D;
+}
+.pink{
+    background-color: #F8BAE8;
+}
+.textwhite{
+    color:white!important;
+}
+.textblue{
+    color:#76CAEE!important;
+}
+.right{
+    text-align: center;
+}
+.rute img{
+    width:960px;
+}
+@media screen and (max-width:950px){
+    .right{
+        display: flex;
+        justify-content: right;
+    }  
+    .rute img{
+        width:300px;
+    }
+}
